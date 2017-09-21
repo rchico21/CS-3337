@@ -1,0 +1,16 @@
+# ignore everything
+*
+
+# dont ignore src or anything inside
+!src/
+!src/**
+
+# dont ignore WebContent or anything inside
+!WebContent/
+!WebContent/**
+
+# dont ignore anything with these files
+#/*.txt
+/*.md
+
+!.gitignore
